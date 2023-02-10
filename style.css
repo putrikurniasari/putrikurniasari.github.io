@@ -10,7 +10,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3C2A21;
+  background-color: #D5CEA3;
   position: sticky;
   top: 0;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -27,7 +27,7 @@ html {
 }
 .navbar ul li a {
   text-decoration: none;
-  color: #ECDBBA;
+  color: #4b4c4d;
   padding: 8px 25px;
   transition: all 0.5s ease;
 }
@@ -40,7 +40,7 @@ html {
 #home {
   display: flex;
   flex-direction: column;
-  background: url("gambar2.jpg") no-repeat center center/cover;
+  background: url("assets/gambar2.jpg") no-repeat center center/cover;
   height: 840px;
   justify-content: center;
   align-items: center;
@@ -98,14 +98,8 @@ html {
   margin-top: 15px;
   color: #ECDBBA;
 }
-#pic {
-  display: flex;
-}
-#pic img {
-  width: 400px;
-  height: 500px;
-  border-radius: 15px;
-}
+
+
 #intro {
   display: flex;
   flex-direction: column;
@@ -194,12 +188,12 @@ html {
 .input {
   padding: 12px;
   margin: 15px;
-  width: 30%;
+  width: 60%;
   border: none;
   outline: none;
 }
 #msg {
-  width: 20%;
+  width: 60%;
   padding: 10px;
   margin: 15px;
   border: none;
